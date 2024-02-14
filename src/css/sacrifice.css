@@ -1,0 +1,79 @@
+.mainSacrifice{
+    display: flex;
+    position: relative;
+}
+.tonySnap{
+    height: 100vh;
+    width: 600px;
+    object-fit: fill;
+}
+.right-sac{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 150px; */
+}
+.wrapperdiv2{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex-wrap: wrap;
+    letter-spacing: 1.5px;
+    word-spacing: 0.3px;
+    text-align: center;
+    margin-left: 150px;
+}
+.contentArc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+.glowText{
+    background: -webkit-linear-gradient(-45deg, #fd0202 0%, #f2ff01 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     background-size: 200% 200%;
+     animation: gradientMove 3s linear infinite;
+     font-size: 25px;
+     font-weight: 500;
+}
+@keyframes gradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.goback007{
+    padding: 8px 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 12px 2px #52FEFE;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.goback007:hover{
+    transform: scale(1.2);
+}
+.goback007:active{
+    transform: scale(0.8);
+}
+
+
+@media only screen and (max-width:1200px){
+    .wrapperdiv2{
+        margin:0px;
+    }
+}
