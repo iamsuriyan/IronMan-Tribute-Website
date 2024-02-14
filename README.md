@@ -31,33 +31,66 @@ Before you begin, ensure you have the following installed:
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
-```bash
-git clone https://github.com/iamsuriyan/IronMan-Tribute-Website.git
+    ```bash
+    git clone https://github.com/iamsuriyan/IronMan-Tribute-website.git
+    ```
 
-2. Navigate to the project directory:
-- cd IronMan-Tribute-Website
+2. **Navigate to the project directory:**
 
-3. Install dependencies using npm or yarn:
+    ```bash
+    cd IronMan-Tribute-Website
+    ```
 
-# Using npm
-- npm install
+3. **Install dependencies using npm or yarn:**
 
-# Using yarn
-- yarn
+    ```bash
+    # Using npm
+    npm install
+
+    # Using yarn
+    yarn
+    ```
 
 ## Usage
 
-1. Start the development server:
+1. **Start the development server:**
 
-# Using npm
-- npm run dev
+    ```bash
+    # Using npm
+    npm run dev
 
-# Using yarn
-- yarn dev
+    # Using yarn
+    yarn dev
+    ```
 
-2. Open your browser and go to http://localhost:(host number displayed in your compiler) to view the Iron Man Tribute Page.
+2. **Open your browser and go to [http://localhost:(host number displayed in your code editor)] to view the Iron Man Tribute Page.**
 
 ## Contributing
-Contributions are welcome! If you'd like to contribute to the project feel free to submit a pull request
+
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+
+1. **Fork the repository.**
+2. **Create a new branch:**
+
+    ```bash
+    git checkout -b feature/new-feature
+    ```
+
+3. **Make your changes and commit them:**
+
+    ```bash
+    git commit -m 'Add new feature'
+    ```
+
+4. **Push to the branch:**
+
+    ```bash
+    git push origin feature/new-feature
+    ```
+
+5. **Submit a pull request.**
+
+
+---
